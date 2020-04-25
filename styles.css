@@ -1,0 +1,59 @@
+header{
+  position:fixed;
+  top:0;
+  width: 100%;
+  background-color: dimgray;
+}
+body {
+  background-image: linear-gradient( to bottom right, darkcyan,antiquewhite,chocolate)
+}
+main{
+  margin-top: 150px;
+}
+nav li{
+  display: inline;
+}
+.code{
+  background-color: moccasin;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+}
+table tr:nth-child(even){
+  background-color: lightgray;
+}
+table tr:hover{
+  background-color: moccasin;
+}
+table caption{
+  font-size: 20px;
+  font-family: verdana;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+table{
+  border: double darkcyan;
+  border-collapse: collapse;
+}
+table th{
+  font-size: 18px;
+  font-family: verdana;
+  background-color: darkcyan;
+}
+td{
+  font-size: 17px;
+  border: 1px solid darkcyan;
+  padding: 5px;
+}
+h1, h2{
+  color: whitesmoke;
+  font: arial, sans-serif;
+}
+th,td{
+  border:
+}
+.codebox{
+text-align: center;
+}

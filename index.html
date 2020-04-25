@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Cheat sheet Emporium</title>
+</head>
+
+<body>
+  <header>
+    <h1>Berkutchi Jon's Cheat Sheets Emporium</h1>
+    <img src="images\yurt-vector-drawing (2).jpg" alt="Yurt Vector drawing" width="70px" height="50px">
+  <nav>
+    <ul>
+      <li><a href="" target="_blank">HTML Tables</a></li>
+      <li><a href="#htmlforms" >HTML Forms</a></li>
+      <li><a href="" target="_blank">Other HTML tags</a></li>
+      <li><a href="" target="_blank">CSS</a></li>
+    </ul>
+  </nav>
+  </header>
+  <main>
+    <h2>HTML Tables Demystified</h2>
+    <table>
+      <caption>HTML Table Tags</caption>
+      <thead>
+        <tr>
+          <th abbr="Tag">Element</th>
+          <th>Attribute</th>
+          <th>Definition</th>
+          <th>Syntax/Link/<em>Attribute Values</em></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row - table -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;table&gt;</span></td>
+          <td></td>
+          <td>Defines a table</td>
+          <td><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">W3 Schools link</td>
+        </tr>
+        <!-- Row - thead -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;thead&gt;</span></td>
+          <td></td>
+          <td>Groups the header content in a table</td>
+          <td>
+        </tr>
+        <!-- Row - tbody -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;tbody&gt;</span></td>
+          <td></td>
+          <td>Used in conjunction with <em>thead</em> and <em>tfooter</em>, it groups the body content allowing independent scrolling</td>
+          <td><a href="https://www.w3schools.com/tags/tag_tbody.asp" target="_blank">W3 School example</a></td>
+        </tr>
+        <!-- Row - tfoot -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;tfoot&gt;</span></td>
+          <td></td>
+          <td>Used to group footer content in conjunction with the thead and tbody elements to specify each part of a table.</td>
+          <td><a href="https://www.w3schools.com/tags/tag_tfoot.asp" target="_blank">W3 School example</a></td>
+        </tr>
+        <!-- Row - th -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;th&gt;</span></td>
+          <td></td>
+          <td>Defines a header cell in a table</td>
+          <td><em>abbr, colspan, headers, rowspan, scope</em></td>
+        </tr>
+
+        <!-- Row - tr -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;tr&gt;</span></td>
+          <td></td>
+          <td>Defines a row in a table</td>
+          <td><a href="https://www.w3schools.com/tags/tag_tr.asp" target="_blank">W3 School example</a></td>
+        </tr>
+        <!-- Row - td -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;td&gt;</span></td>
+          <td></td>
+          <td>Defines a cell in a table</td>
+          <td><em>colspan, headers, rowspan</em></td>
+        </tr>
+        <!-- Row - caption -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;caption&gt;</span></td>
+          <td></td>
+          <td>Defines a table caption</td>
+          <td><a href="https://www.w3schools.com/tags/tag_caption.asp" target="_blank">W3 School example</a></td>
+        </tr>
+        <!-- Row - colgroup -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;colgroup&gt;</span></td>
+          <td></td>
+          <td>Specifies a group of one or more columns in a table for formatting.</td>
+          <td><a href="https://www.w3schools.com/tags/tag_colgroup.asp" target="_blank">W3 School example</a></td>
+        </tr>
+        <!-- Row - col -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;col&gt;</span></td>
+          <td></td>
+          <td>Specifies column properties for each column within a <em>colgroup</em></td>
+          <td><em>span</em></a></td>
+        </tr>
+        <!-- Row - th abbr -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">abbr</span></td>
+          <td>Specifies an abbreviated version of the content in a header cell which is utilised by some screen readers</td>
+          <td><span class="code">&lt;th abbr="Make"&gt;Toy manufacturer&lt;/th&gt;</span></td>
+        </tr>
+        <!-- Row - th colspan -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">colspan</span></td>
+          <td>This attribute contains a non-negative integer value that indicates for how many columns the cell extends. Its default value is 1.</td>
+          <td><span class="code">&lt;th colspan="2"&gt;Monthly Savings&lt;/th&gt;</span></td>
+        </tr>
+        <!-- Row - th headers -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">headers</span></td>
+          <td>Specifies the number of columns a header cell should span</td>
+          <td><span class="code">&lt;th colspan="2"&gt;Monthly Savings&lt;/th&gt;</span></td>
+        </tr>
+        <!-- Row - th rowspan -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">rowspan</span></td>
+          <td>Specifies whether a header cell is a header for a column, row, or group of columns or rows </td>
+          <td><span class="code">&lt;th rowspan="3"&gt;Savings for Holiday&lt;/th&gt;</span></td>
+        </tr>
+        <tr>
+          <!-- Row - th scope -->
+          <td></td>
+          <td class="codebox"><span class="code">scope</span></td>
+          <td>The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.</td>
+          <td><em>col, row, colgroup, rowgroup</em></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <!-- HTML Forms Table - table -->
+    <table id="htmlforms">
+      <caption>HTML Forms</caption>
+      <thead>
+        <th>Element Tag</th>
+        <th>Attribute Tag</th>
+        <th>Description</th>
+        <th>Syntax/Useful Link/<em>Attribute values</em></th>
+      </thead>
+      <tbody>
+        <!-- Row - Form -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;form&gt;</span></td>
+          <td></td>
+          <td>Defines an HTML form for user input</td>
+          <td><em>action, target, method</em></td>
+        </tr>
+        <!-- Row - action attribute -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">action</span></td>
+          <td>The <em>action</em> attribute defines the action to be performed when the form is submitted. Usually, the form data is sent to a page on the server when the user clicks on the submit button.</td>
+          <td><span class="code">&lt;form action="/action_page.php"&gt;</span></td>
+        </tr>
+        <!-- Row - target attribute -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">target</span></td>
+          <td>The <em>target</em> attribute specifies if the submitted result will open in a new browser tab, a frame, or in the current window.</td>
+          <td><span class="code">&lt;form action="/action_page.php" target="_blank"&gt;</span></td>
+        </tr>
+        <!-- Row - method attribute -->
+        <tr>
+          <td></td>
+          <td class="codebox"><span class="code">method</span></td>
+          <td>The <em>method</em> attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.</td>
+          <td><span class="code">&lt;form action="/action_page.php" method="get"&gt;</span></td>
+        </tr>
+        <!-- Row - Input element-->
+        <tr>
+          <td class="codebox"><span class="code">&lt;input&gt;</span></td>
+          <td></td>
+          <td>The <em>input</em> element is the most important form element. The <em>input</em> element is displayed in several ways, depending on the type attribute.</td>
+          <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">MDN weblink to huge list of types and variables</a></td>
+        </tr>
+        <!-- Row - Label element-->
+        <tr>
+          <td class="codebox"><span class="code">&lt;label&gt;</span></td>
+          <td></td>
+          <td>To associate the <em>label</em> with an <em>input</em> element, you need to give the <em>input</em> an id attribute. The <label> then needs a for attribute whose value is the same as the input's id.</td>
+          <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank">MDN webdoc for HTML labels</a></td>
+        </tr>
+        <!-- Row - Select element -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;select&gt;</span></td>
+          <td></td>
+          <td>The <em>select</em> element is used to create a drop-down list. The <em>option</em> tags inside the <em>select</em> element define the available options in the list.</td>
+          <td><a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">W3 Schools example link</a></td>
+        </tr>
+        <!-- Row - datalist element -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;datalist&gt;</span></td>
+          <td></td>
+          <td>The <em>datalist</em> tag is used to provide an "autocomplete" feature on <em>input</em> elements. Users will see a drop-down list of pre-defined options as they input data. Use the <em>input</em> element's list attribute to bind it together with a <em>datalist</em> element.</td>
+          <td><a href="https://www.w3schools.com/tags/tag_datalist.asp" target="_blank">W3 Schools example link</a></td>
+        </tr>
+        <!-- Row - textarea element -->
+        <tr>
+          <td class="codebox"><span class="code">&lt;textarea&gt;</span></td>
+          <td></td>
+          <td>The <em>textarea></em> tag defines a multi-line text input control. The size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.</td>
+          <td><a href="https://www.w3schools.com/tags/tag_textarea.asp" target="_blank">W3 Schools example link</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
+</form>
